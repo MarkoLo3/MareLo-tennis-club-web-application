@@ -1,14 +1,12 @@
-<?php
-  $dsn = 'mysql:host=localhost;dbname=teniskiklub;charset=utf8mb4';
-  $username = 'root';
-  $password = '';
 
-  try {
-    $pdo = new PDO($dsn, $username, $password);
+<?php
+$config = include 'config.php';
+
+try {
+    $pdo = new PDO($config['dsn'], $config['username'], $config['password']);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  } 
-  catch (PDOException $e) {
+} catch (PDOException $e) {
     echo 'Connection failed: ' . $e->getMessage();
     exit;
-  }
+}
 ?>
