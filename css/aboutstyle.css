@@ -1,0 +1,72 @@
+
+
+.tennisapp-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tennisapp-navlink {
+    font-size: 1.1rem;
+}
+
+.tennisapp-container {
+    padding-top: 20px;
+}
+
+.tennisapp-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tennisapp-lead {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.tennisapp-divider {
+    border-top: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+.tennisapp-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.tennisapp-text {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.tennisapp-listgroup {
+    margin-top: 10px;
+}
+
+.tennisapp-listitem {
+    font-size: 1rem;
+}
+
+.tennisapp-card {
+    margin-bottom: 20px;
+}
+
+.tennisapp-cardimg {
+    height: 200px;
+    object-fit: cover;
+}
+
+.tennisapp-cardbody {
+    text-align: center;
+}
+
+.tennisapp-cardtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.tennisapp-cardtext {
+    font-size: 1rem;
+}

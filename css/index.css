@@ -1,0 +1,56 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgb(241, 247, 244);
+    
+ 
+}
+
+#navbarPadding
+{
+    padding-top: 20px;
+}
+.jumbotron1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    height: 560px;
+    margin: 5px;
+    background-image: url("images/Untitled\ design.png");
+    background-size:auto;
+    width:auto;
+    
+}
+
+.blockquote, .blockquote-footer 
+{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.threeCardsText
+{
+    text-align: left;
+    color: #164863;
+    font-size: 20px;
+}
+.porukaLink
+{
+    color: #164863;
+    text-decoration: none;
+    transition: 300ms;
+    font-size: 30px;
+    font-weight: bold;
+    color: #164863;
+}
+.porukaLink:hover
+{
+    color: #3ac524;
+    text-decoration: none;
+}

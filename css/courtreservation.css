@@ -1,0 +1,30 @@
+
+.threeCardsReservationDesc
+{
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    color: #164863;
+    font-size: 20px;
+}
+.threeCardsReservationTitle
+{
+    color: #164863;
+    text-decoration: none;
+    transition: 300ms;
+    font-size: 30px;
+    font-weight: bold;
+    color: #164863;
+}
+.threeCardsReservationTitle:hover
+{
+    color: #3ac524;
+    text-decoration: none;
+}
+.h1Reservation {
+    font-family:'Courier New', Courier, monospace;
+    color:green;
+    text-decoration: underline;
+}
+.h2Reservation {
+    font-family:'Courier New', Courier, monospace;
+}

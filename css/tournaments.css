@@ -1,0 +1,72 @@
+
+
+.tournament-card {
+    /* Add styles for the outermost div */
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 18rem;
+    margin: 1rem;
+    
+}
+
+.tournament-card-body {
+    /* Add styles for the inner div */
+    padding: 1rem;
+    width: 18rem;
+    
+}
+
+.tournament-card-title {
+    /* Add styles for the h5 element */
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.tournament-card-text {
+    /* Add styles for the p element */
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.tournament-list-group {
+    /* Add styles for the ul element */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tournament-list-group-item {
+    /* Add styles for the li elements */
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.tournament-card-body-button {
+    /* Add styles for the inner div */
+    padding: 1rem;
+}
+
+.tournament-button-apply {
+    /* Add styles for the buttons */
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    background-color: #343a40;
+    color: #fff;
+}
+.tournament-button-apply:hover {
+    background-color: #096a2e;
+}
+
+
+
+.tournament-button-delete {
+    /* Add styles for the delete button */
+    background-color: #fff;
+    color: #343a40;
+}

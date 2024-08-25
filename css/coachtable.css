@@ -1,0 +1,47 @@
+.coachTable {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.coachTable td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.coachTable tr:last-child td {
+    border-bottom: none;
+}
+
+.deleteButton, .updateButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.deleteButton {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.deleteButton:hover {
+    background-color: #c0392b;
+}
+
+.updateButton {
+    background-color: #3498db;
+    color: white;
+}
+
+.updateButton:hover {
+    background-color: #2980b9;
+}

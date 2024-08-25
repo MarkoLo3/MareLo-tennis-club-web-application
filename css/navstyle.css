@@ -1,0 +1,35 @@
+/* Custom styling for navbar */
+.navbar-nav {
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.navbar-nav .nav-link {
+    margin:19px; /* promeni ovo, vidi kako moze bolje da se namesti     */
+    color:white;
+    
+}
+
+/* Custom styling for active link */
+.navbar-nav .nav-link.active {
+    
+    color: white;
+}
+
+/* Custom styling for login button */
+.navbar-nav .nav-link.btn {
+    color: #010000;
+    background-color: #fcfcfc;
+    
+    
+}
+.navbar-nav .nav-link.btn:hover{
+    
+    text-decoration: underline;
+}
+
+/* Hover effect for links */
+.navbar-nav .nav-link:hover {
+    color:rgb(114, 146, 16);
+    text-decoration: underline;
+}
+
